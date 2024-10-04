@@ -1,5 +1,5 @@
 
-import DICTIONARY from ./language.mjs;
+import DICTIONARY from "./language.mjs";
 
 const settings = loadSettings();
 const language = settings.language || 'en';
