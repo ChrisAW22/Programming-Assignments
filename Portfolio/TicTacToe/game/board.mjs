@@ -1,5 +1,5 @@
-import { loadSettings } from "./settings.mjs";
-import DICTIONARY from "./language.mjs";
+
+import DICTIONARY from "../../../../Downloads/TicTacToe-main/TicTacToe-main/game/language.mjs";
 
 const settings = loadSettings();
 const language = settings.language || 'en';
